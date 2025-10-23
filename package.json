@@ -26,7 +26,7 @@
     "dev": "bunchee --watch",
     "dev:test": "turbo run dev --filter=test...",
     "format": "prettier --write .",
-    "prepare": "pnpm build",
+    "prepare": "tsc --noEmit && bunchee && cp -r ./src/style.css ./style.css",
     "test": "playwright test"
   },
   "keywords": [
