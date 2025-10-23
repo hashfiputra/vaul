@@ -26,6 +26,7 @@
     "dev": "bunchee --watch",
     "dev:test": "turbo run dev --filter=test...",
     "format": "prettier --write .",
+    "prepare": "pnpm build",
     "test": "playwright test"
   },
   "keywords": [
