@@ -66,5 +66,8 @@
   "packageManager": "pnpm@8.8.0",
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1"
+  },
+  "overrides": {
+    "@types/scheduler": "< 0.23.0"
   }
 }
